@@ -33,9 +33,10 @@ class LoginForm extends React.Component {
                         name='email'
                         classes={{
                             container: styles.inputContainer,
-                            input: styles.input,
+                            inputClass: styles.input,
                             warning: styles.fieldWarning,
-                            notValid: styles.notValid
+                            notValid: styles.notValid,
+                            valid: styles.valid
                         }}
                         component={FormInput}
                         type='text'
@@ -45,9 +46,10 @@ class LoginForm extends React.Component {
                         name='password'
                         classes={{
                             container: styles.inputContainer,
-                            input: styles.input,
+                            inputClass: styles.input,
                             warning: styles.fieldWarning,
-                            notValid: styles.notValid
+                            notValid: styles.notValid,
+                            valid: styles.valid
                         }}
                         component={FormInput}
                         type='password'

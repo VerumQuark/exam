@@ -52,9 +52,10 @@ class RegistrationForm extends React.Component {
                             name='firstName'
                             classes={{
                                 container: styles.inputContainer,
-                                input: styles.input,
+                                inputClass: styles.input,
                                 warning: styles.fieldWarning,
-                                notValid: styles.notValid
+                                notValid: styles.notValid,
+                                valid: styles.valid
                             }}
                             component={FormInput}
                             type='text'
@@ -64,9 +65,10 @@ class RegistrationForm extends React.Component {
                             name='lastName'
                             classes={{
                                 container: styles.inputContainer,
-                                input: styles.input,
+                                inputClass: styles.input,
                                 warning: styles.fieldWarning,
-                                notValid: styles.notValid
+                                notValid: styles.notValid,
+                                valid: styles.valid
                             }}
                             component={FormInput}
                             type='text'
@@ -78,9 +80,10 @@ class RegistrationForm extends React.Component {
                             name='displayName'
                             classes={{
                                 container: styles.inputContainer,
-                                input: styles.input,
+                                inputClass: styles.input,
                                 warning: styles.fieldWarning,
-                                notValid: styles.notValid
+                                notValid: styles.notValid,
+                                valid: styles.valid
                             }}
                             component={FormInput}
                             type='text'
@@ -90,9 +93,10 @@ class RegistrationForm extends React.Component {
                             name='email'
                             classes={{
                                 container: styles.inputContainer,
-                                input: styles.input,
+                                inputClass: styles.input,
                                 warning: styles.fieldWarning,
-                                notValid: styles.notValid
+                                notValid: styles.notValid,
+                                valid: styles.valid
                             }}
                             component={FormInput}
                             type='text'
@@ -104,9 +108,10 @@ class RegistrationForm extends React.Component {
                             name='password'
                             classes={{
                                 container: styles.inputContainer,
-                                input: styles.input,
+                                inputClass: styles.input,
                                 warning: styles.fieldWarning,
-                                notValid: styles.notValid
+                                notValid: styles.notValid,
+                                valid: styles.valid
                             }}
                             component={FormInput}
                             type='password'
@@ -116,9 +121,10 @@ class RegistrationForm extends React.Component {
                             name='confirmPassword'
                             classes={{
                                 container: styles.inputContainer,
-                                input: styles.input,
+                                inputClass: styles.input,
                                 warning: styles.fieldWarning,
-                                notValid: styles.notValid
+                                notValid: styles.notValid,
+                                valid: styles.valid
                             }}
                             component={FormInput}
                             type='password'
